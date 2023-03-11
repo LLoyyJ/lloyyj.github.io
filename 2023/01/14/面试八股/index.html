@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>面试八股 | LLoyyj's blog</title><meta name="keywords" content="java,八股,面试"><meta name="author" content="LLoyyj"><meta name="copyright" content="LLoyyj"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="我针对 「JavaGuide」 上的内容给大家画一下重点并做一下说明，大家可以有针对性的去看。下面问题的答案都在 JavaGuide 中能找到。链接如下： https:&#x2F;&#x2F;snailclimb.gitee.io&#x2F;javaguide&#x2F;#&#x2F;?id&#x3D;%e5%9f%ba%e7%a1%80 下面的知识点都是要看的，我通过打星与加粗的方式对知识点的重要性进行评级！难度是针对互联网大厂的。  一星：面试中不常问">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>面试八股 | LLoyyj's blog</title><meta name="keywords" content="java,八股,面试"><meta name="author" content="LLoyyj"><meta name="copyright" content="LLoyyj"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="一星：面试中不常问到，如果面试官问到尽量能答出来，答不出来也没关系。 二星：面试中不常问到，但是如果面试官问到的话，答不出来对你的印象会减分。 三星：面试中会问到，答不出来面试有点悬。面试官会惊讶为什么你这也不会。 四星：面试高频考点。 五星：面试超高频考点。四星考点和五星考点是参加十场面试，至少能有五场面试问  这些的。大家在准备面试过程中尽量把这些知识点的回答条理梳理清楚，面试官一问就开背。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="面试八股">
 <meta property="og:url" content="http://lloyyj.github.io/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/index.html">
 <meta property="og:site_name" content="LLoyyj&#39;s blog">
-<meta property="og:description" content="我针对 「JavaGuide」 上的内容给大家画一下重点并做一下说明，大家可以有针对性的去看。下面问题的答案都在 JavaGuide 中能找到。链接如下： https:&#x2F;&#x2F;snailclimb.gitee.io&#x2F;javaguide&#x2F;#&#x2F;?id&#x3D;%e5%9f%ba%e7%a1%80 下面的知识点都是要看的，我通过打星与加粗的方式对知识点的重要性进行评级！难度是针对互联网大厂的。  一星：面试中不常问">
+<meta property="og:description" content="一星：面试中不常问到，如果面试官问到尽量能答出来，答不出来也没关系。 二星：面试中不常问到，但是如果面试官问到的话，答不出来对你的印象会减分。 三星：面试中会问到，答不出来面试有点悬。面试官会惊讶为什么你这也不会。 四星：面试高频考点。 五星：面试超高频考点。四星考点和五星考点是参加十场面试，至少能有五场面试问  这些的。大家在准备面试过程中尽量把这些知识点的回答条理梳理清楚，面试官一问就开背。">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg">
 <meta property="article:published_time" content="2023-01-14T07:27:59.000Z">
-<meta property="article:modified_time" content="2023-02-22T07:36:56.219Z">
+<meta property="article:modified_time" content="2023-03-11T04:14:05.932Z">
 <meta property="article:author" content="LLoyyj">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="八股">
@@ -59,7 +59,7 @@
   isHome: false,
   isHighlightShrink: true,
   isToc: false,
-  postUpdate: '2023-02-22 15:36:56'
+  postUpdate: '2023-03-11 12:14:05'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -141,10 +141,7 @@
           document.documentElement.classList.remove('hide-aside')
         }
       }
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://s2.loli.net/2023/01/11/1NsbGvmfukWXBQM.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">8</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">LLoyyj's blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">面试八股</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-01-14T07:27:59.000Z" title="Created 2023-01-14 15:27:59">2023-01-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-02-22T07:36:56.219Z" title="Updated 2023-02-22 15:36:56">2023-02-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java/">Java</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">1.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>3min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="面试八股"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>我针对 「JavaGuide」 上的内容给大家画一下重点并做一下说明，大家可以有针对性的去看。下面问题的答案都在 JavaGuide 中能找到。链接如下：</p>
-<p><a target="_blank" rel="noopener" href="https://snailclimb.gitee.io/javaguide/#/?id=%e5%9f%ba%e7%a1%80">https://snailclimb.gitee.io/javaguide/#/?id=%e5%9f%ba%e7%a1%80</a></p>
-<p>下面的知识点都是要看的，我通过打星与加粗的方式对知识点的重要性进行评级！难度是针对互联网大厂的。</p>
-<blockquote>
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://s2.loli.net/2023/01/11/1NsbGvmfukWXBQM.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">8</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">LLoyyj's blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">面试八股</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-01-14T07:27:59.000Z" title="Created 2023-01-14 15:27:59">2023-01-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-03-11T04:14:05.932Z" title="Updated 2023-03-11 12:14:05">2023-03-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java/">Java</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">5.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>18min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="面试八股"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
 <p>一星：面试中不常问到，如果面试官问到尽量能答出来，答不出来也没关系。</p>
 <p>二星：面试中不常问到，但是如果面试官问到的话，答不出来对你的印象会减分。</p>
 <p>三星：面试中会问到，答不出来面试有点悬。面试官会惊讶为什么你这也不会。</p>
@@ -171,6 +168,39 @@
 <p>6.&#x3D;&#x3D; 和 equals() 的区别。【⭐⭐⭐】</p>
 </blockquote>
 <blockquote>
+<p>final</p>
+</blockquote>
+<ul>
+<li>修饰类——类不可被继承</li>
+<li>修饰方法——方法不可以被子类覆盖，但是可以重载</li>
+<li>修饰变量——变量一旦被赋值就不可以更改值<ul>
+<li>成员变量：<ul>
+<li>类变量（static修饰）——在静态代码块中指定初始值 &#x2F; 声明时指定初始值</li>
+<li>成员变量 —— 非静态初始化块、声明变量、构造器中执行初始值</li>
+</ul>
+</li>
+<li>局部变量：在使用变量前赋值，但不允许第二次赋值<ul>
+<li>基本数据类型：一旦初始化后不可以更改</li>
+<li>引用类型：对其初始化后不可以在指向另一个对象，但引用的值是可变的</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>局部内部类和匿名内部类只能访问局部final变量？</p>
+</blockquote>
+<p>​	程序编译的时候会形成两个.class文件，除了本类还有内部类，但内部类和外部类同级别，并不会因为定义在方法中就会随着方法销毁。为了保证内部类可以在方法销毁后也可以访问局部变量，会将局部变量复制一份作为内部类的成员变量，但为了保证数据的一致性，将局部变量设置为final，，对他初始化后就不允许再修改，使得局部变量和内部类建立的拷贝保持一致。</p>
+<blockquote>
+<p>接口和抽象类的区别</p>
+</blockquote>
+<ul>
+<li>抽象类里除了抽象方法也可以有普通成员函数，而接口中只能存在public abstract方法</li>
+<li>抽象类中的成员变量可以是各种类型的，但接口中只能存在public static final类型的</li>
+<li>抽象类只能继承一个，接口可以实现多个</li>
+<li>抽象类是 is a 的关系（代码复用），接口是 like a 的关系（对类的行为进行约束）</li>
+</ul>
+<blockquote>
 <p>7.hashCode() 和 equals() 【⭐⭐⭐⭐】</p>
 </blockquote>
 <p>这个问题经常问，面试官经常问为什么重写 equals() 时要重写 hashCode() 方法？</p>
@@ -178,6 +208,36 @@
 <blockquote>
 <p>8.重载和重写的区别。 【⭐⭐⭐⭐】</p>
 </blockquote>
+<ul>
+<li>重载：<ul>
+<li>在同一个类中</li>
+<li>方法名必须相同</li>
+<li>参数列表必须不同 —— 个数不同 &#x2F; 参数类型不同 &#x2F; 顺序不同</li>
+<li>返回值和访问修饰符可以不同</li>
+<li>发生在编译时<ul>
+<li>编译器找不到匹配的参数时，会发生编译时错误 → 重载解析（overloading resolution）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>重写：<ul>
+<li>在父类与子类中</li>
+<li>方法名、参数列表必须相同</li>
+<li>返回值范围 &lt; 父类<ul>
+<li>返回值重写时：<ul>
+<li>void &#x2F; 基本数据类型：不可改</li>
+<li>引用类型：可返回子类</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>抛出的异常范围 &lt;&#x3D; 父类</li>
+<li>访问修饰符范围 &gt;&#x3D; 父类</li>
+<li>父类方法访问修饰符为private时，不可以重写</li>
+<li>发生在运行期</li>
+</ul>
+</li>
+</ul>
 <blockquote>
 <p>9.深拷贝和浅拷贝。【⭐】</p>
 </blockquote>
@@ -191,8 +251,28 @@
 <p>12.面向对象三大特性是什么。并解释这三大特性。【⭐⭐⭐】</p>
 </blockquote>
 <blockquote>
-<p>13.「String、StringBuffer 和 StringBuilder 的区别。」 【⭐⭐⭐⭐】</p>
+<p>13.String、StringBuffer 和 StringBuilder 的区别。 【⭐⭐⭐⭐】</p>
 </blockquote>
+<ul>
+<li>String：<ul>
+<li>保存字符串的数组由final、private修饰，不可变；</li>
+<li>每次操作会生成新的对象，导致内存浪费；</li>
+<li>Java9后底部数组由char[]改为byte[]，因为在latin-1编码下，byte占一个字节，char占两个字节，可以节省50%的内存空间。</li>
+</ul>
+</li>
+<li>StringBuilder：<ul>
+<li>在原对象操作</li>
+<li>线程不安全</li>
+<li>‘+’ ：等同于 StringBuilder.append().toString()<ul>
+<li>在循环内使用+，会在每次循环创建一个StringBuilder对象，浪费内存</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>StringBuffer：在原对象上操作，线程安全（方法都是synchronized修饰）</li>
+<li>性能：StringBuilder &gt; StringBuffer &gt; String</li>
+<li>使用场景：经常需要改变字符串内容时使用后面两个，优先使用StringBuilder，多线程使用共享变量时使用StringBuffer。</li>
+</ul>
 <blockquote>
 <p>14.异常。【⭐⭐⭐】</p>
 </blockquote>
@@ -201,30 +281,420 @@
 <blockquote>
 <p>15.序列化和反序列化【⭐⭐】</p>
 </blockquote>
+<blockquote>
 <p>16.List、Set、 Map 的区别。【⭐⭐】</p>
+</blockquote>
+<ul>
+<li>List<ul>
+<li>有序、可重复的</li>
+<li>可以用Iterator取出所有元素，逐一遍历 &#x2F; get(index)方法取出元素</li>
+<li>ArrayList：<ul>
+<li>Object[]存储，动态数组，连续内存存储，适用于频繁的查找工作</li>
+<li>线程不安全</li>
+<li>插入操作：<ul>
+<li>指定位置i——O(n-i)</li>
+<li>末尾——O(1)</li>
+</ul>
+</li>
+<li>会在末尾预留一些空间 —— 占有内存空间</li>
+<li>扩容机制：新建数组，复制数据到新数组</li>
+<li>实现RAndomAccess接口，支持随机访问</li>
+</ul>
+</li>
+<li>Vector：<ul>
+<li>Object[]存储</li>
+<li>线程安全</li>
+</ul>
+</li>
+<li>LinkedList<ul>
+<li>底层使用双向链表存储（JDK1.7取消使用双向循环链表）</li>
+<li>线程不安全</li>
+<li>插入操作：<ul>
+<li>内部维护了一个node内部类，插入是会创建node对象，大量插入时性能消耗较大</li>
+<li>指定位置i —— O(n)</li>
+<li>末尾 —— O(1)</li>
+</ul>
+</li>
+<li>遍历时使用Iterator而不是for循环<ul>
+<li>每次for循环通过get(i)去取元素时都要重新遍历list，性能消耗极大</li>
+</ul>
+</li>
+<li>indexOf()返回元素索引也会遍历整个list，性能消耗极大</li>
+<li>每个元素都要消耗更多空间</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Set<ul>
+<li>无序、不可重复的</li>
+<li>只能用Iterator取出所有元素，逐一遍历</li>
+<li>HashSet<ul>
+<li>保证元素唯一，线程不安全</li>
+<li>底层数据结构为HashMap(但仅存储对象)</li>
+<li>使用场景：不需保证元素插入和取出顺序时</li>
+</ul>
+</li>
+<li>LinkedHashSet<ul>
+<li>保证元素唯一，线程不安全</li>
+<li>底层数据结构为链表+哈希表</li>
+<li>使用场景：保证元素满足FIFO顺序时</li>
+</ul>
+</li>
+<li>TreeSet<ul>
+<li>保证元素唯一，线程不安全</li>
+<li>底层数据结构为红黑树</li>
+<li>使用场景：对元素自定义排序规则时</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Map<ul>
+<li>HashMap</li>
+<li>Hashtable</li>
+<li>TreeMap</li>
+</ul>
+</li>
+</ul>
+<blockquote>
 <p>17.「ArrayList 和 LinkedList 的区别。」【⭐⭐⭐⭐】</p>
+</blockquote>
 <p>答清楚每个分别采用什么数据结构，对比相应的优点和缺点。</p>
+<blockquote>
 <p>18.「HashMap、HashTable、以及 ConcurrentHashMap 的区别。」【⭐⭐⭐⭐⭐】</p>
+</blockquote>
 <p>现在面试的超高频考点。当面试官问到这个问题的时候，展现你背面试八股文能力的机会来了。</p>
 <p>你可以展开去讲在 Java7 和 Java8 中 HashMap 分别采用什么数据结构，为什么 Java8 把之前的头插法改成了尾插法，怎样实现扩容，为什么负载因子是 0.75，为什么要用红黑树等等一系列的东西。只要面试官不打断我，我在这个知识点上能背到面试官下班。我最近也准备写一篇文章，详述上述知识点。</p>
+<blockquote>
 <p>19.进程和线程的区别。【⭐⭐⭐⭐⭐】</p>
+</blockquote>
 <p>这是一个超高频考点，面试回答时别一句一个进程包含很多线程就没了。</p>
 <p>要答清楚什么是线程什么是进程，线程和进程各自的运行状态、线程的通信方式和进程的通信方式。</p>
+<blockquote>
 <p>20.创建线程的方式。【⭐⭐⭐⭐】</p>
+</blockquote>
 <p>不仅要把创建线程的方式记熟、记住各种方式的优缺点，还要能写出代码来。有的面试官是会让你写代码创建两个线程然后执行一些操作的，比如两个线程交替输出数字。</p>
+<blockquote>
+<p>线程的生命周期？几种状态？</p>
+</blockquote>
+<ul>
+<li>创建状态 —— 新建线程对象</li>
+<li>就绪状态 —— 调用该对象的start()后，变成可运行状态，等待获取CPU的使用权</li>
+<li>运行状态 —— 就绪状态的线程获得了使用权，执行程序代码</li>
+<li>阻塞状态 —— 线程由于某些原因放弃了CPU使用权，暂时停止运行直到线程重新进入就绪状态<ul>
+<li>等待阻塞：wait()方法，释放所有资源（包括锁），等待notify()唤醒</li>
+<li>同步阻塞：运行的线程未获取到同步锁，JVM将其放入锁池</li>
+<li>其他阻塞：执行sleep() &#x2F; join()方法 &#x2F; 发出IO请求，JVM将其置为阻塞状态</li>
+</ul>
+</li>
+<li>死亡状态 —— 线程执行完毕 &#x2F; 因异常退出了run()方法，线程结束生命周期</li>
+</ul>
+<blockquote>
+<p>sleep()、wait()、join()、yield()的区别</p>
+</blockquote>
+<ul>
+<li>join() ：线程A调用join方法后，使调用线程A的线程B进入阻塞状态，直到线程A结束或中断</li>
+<li>yield() ：执行后线程进入就绪状态，暂时让出CPU执行权，等待分配CPU使用权</li>
+<li>sleep() ：会让出CPU执行时间并且强制上下文切换 —— 用于当前线程休眠 &#x2F; 轮询暂停操作</li>
+<li>wait() ：用于多线程之间的通信</li>
+</ul>
+<blockquote>
 <p>21.什么是死锁，死锁如何产生，死锁如何避免。【⭐⭐⭐⭐⭐】</p>
+</blockquote>
 <p>超高频问题，几乎大厂的一面和二面都会问到。</p>
+<blockquote>
+<p>线程安全？</p>
+</blockquote>
+<ul>
+<li>线程安全指的是内存安全，堆是共享内存，可以被所有线程访问</li>
+<li>堆是进程线程共有的空间，分为全局堆和局部堆。全局堆是没有分配的空间，局部堆是用户分配的空间。<ul>
+<li>堆在操作系统对进程初始化的时候创建（虚拟机启动时），唯一目的就是存放对象实例，几乎所有的对象实例以及数组都在这里分配内存。</li>
+<li>运行过程中可以向系统要额外的堆，但是用完了要还给操作系统，否则就是内存泄露</li>
+</ul>
+</li>
+<li>栈是线程独有的，所以是线程安全的，是保存其运行状态的局部自动变量的<ul>
+<li>在线程开始时初始化</li>
+<li>操作系统在切换线程的时候会自动切换栈</li>
+</ul>
+</li>
+</ul>
+<blockquote>
 <p>22.synchronized 锁升级流程。【⭐⭐⭐⭐⭐】</p>
+</blockquote>
 <p>这又是面试八股文的一大考点，锁升级流程记清楚。</p>
+<blockquote>
 <p>23.volatile 关键字。【⭐⭐⭐⭐⭐】</p>
+</blockquote>
 <p>对比和 synchronized 的区别。</p>
+<blockquote>
 <p>24.乐观锁和悲观锁的区别。【⭐⭐⭐⭐⭐】</p>
+</blockquote>
+<blockquote>
 <p>25.ThreadLocal。【⭐⭐⭐⭐】</p>
-<p>这也是面试八股文的一个高频考点。我面试到后面不想背这里了，面试过程中就尽可能躲着这个知识点，不提到和这相关的，竟然真的苟过去了。</p>
+</blockquote>
+<ul>
+<li>使用场景：<ul>
+<li>在对象进行跨层传递时，使用参数列表一层一层传较为繁琐，使用ThreadLocal可以避免多次传递，存储在线程的ThreadLocalMap（线程本地变量）中，打破层次间的约束</li>
+<li>线程私有的，所以不存在线程安全性问题，线程间数据隔离</li>
+<li>进行事务操作，用于存储线程事务信息</li>
+<li>数据库连接，session会话管理</li>
+</ul>
+</li>
+<li>ThreadLocal内存泄漏：<ul>
+<li>不在会被使用的对象或者变量占用的内存不可回收——内存泄漏  ！&#x3D; OOM（内存不够）</li>
+<li>强引用：new &#x2F; 反射创建的对象都是强引用，这样不会被垃圾回收器回收<ul>
+<li>内存空间不足时，JVM会抛出OutOfMemoryError错误，也不会回收这种对象</li>
+<li>显式赋值为null时，表明可以进行回收</li>
+</ul>
+</li>
+<li>弱引用：<ul>
+<li>JVM无论内存够不够，都会回收弱引用的对象</li>
+<li>java.lang.ref.WeakReference类的对象</li>
+<li>可以在缓存中使用弱引用，缓存中回收也没关系，可以重新建立</li>
+</ul>
+</li>
+<li>根源：ThreadLocalMap的生命周期和Thread一样长，如果没有手动删除对应key就会导致内存泄露，而不是因为弱引用。</li>
+<li>正确的使用：<ul>
+<li>每次使用完ThreadLocal都调用remove()方法清除数据</li>
+<li>将ThreadLocal遍历定义为private static ，这样就一直存在ThreadLocal的强引用，也能保证任何时候都能通过ThreadLocal的弱引用访问的Entry的值，进而清除掉</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
 <p>26.线程池。【⭐⭐⭐⭐⭐】</p>
+</blockquote>
 <p>超高频考点。需要答出线程池有哪几种，各种线程池的优缺点，线程池的重要参数、线程池的执行流程、线程池的饱和策略、如何设置线程池的大小等等。这里也能背十几分钟。</p>
+<blockquote>
 <p>27.ReentrantLock 和 AQS。【⭐⭐⭐⭐】</p>
+</blockquote>
 <p>其实我在面试的时候对这里不是很熟，我面试的时候尽量不提到这里，也苟过去了。大家如果时间充足的话还是把这块好好理解一下。如果这里理解透彻了，也能在这里和面试官聊很久。</p>
+<blockquote>
+<p>如何实现一个IOC容器</p>
+</blockquote>
+<ol>
+<li>配置文件中指定需要扫描的包的路径</li>
+<li>定义一些注解，分别表示访问控制层、业务服务层、数据持久层、依赖注入注解、获取配置文件注解</li>
+<li>从配置文件中获取需要扫描的包路径，获取到当前路径下的文件信息以及文件夹信息，将当前路径下所有的字节码文件添加到set集合</li>
+<li>反射、确定需要交给IOC管理的类</li>
+<li>对需要注入的类进行依赖注入</li>
+</ol>
+<blockquote>
+<p>JVM怎么判断哪些对象可以回收</p>
+</blockquote>
+<ul>
+<li>可达性分析：从GCRoots 开始向下搜索，搜索走过的路径称为引用链。当一个对象到root没有任何引用链相连时，证明此对象不可用，虚拟机判断为可回收对象，进行一次标记，两次标记后直接回收。</li>
+</ul>
+<blockquote>
+<p>Spring是什么</p>
+</blockquote>
+<ul>
+<li><p>是一个轻量级的控制反转（IOC）和面向切面(AOP)的容器框架</p>
+</li>
+<li><p>容器框架 —— 装javabean（java对象）—— 包含并管理应用对象（Bean）的配置和生命周期</p>
+</li>
+<li><p>中间层框架 —— 起连接作用  ——将简单的组件、配置组合成为复杂的应用</p>
+</li>
+<li><p>从大小开销两方面都是轻量级</p>
+</li>
+<li><p>通过控制反转（IOC）的技术达到松耦合的目的</p>
+</li>
+<li><p>提供了面向切面的丰富支持，允许通过分离应用的业务逻辑与系统级服务进行内聚性的开发</p>
+</li>
+</ul>
+<blockquote>
+<p>AOP面向切面、OOP面向对象</p>
+</blockquote>
+<p>系统的不同功能组件都需要例如日志、事务管理、安全这样的核心公共服务（横切关注点）</p>
+<ul>
+<li>若使用OOP则需要为每个核心业务对象定义公共服务对象，会导致大量代码的重复，不利于模块的复用</li>
+<li>AOP将程序中的交叉业务逻辑封装成一个切面，注入到目标对象中</li>
+</ul>
+<blockquote>
+<p>IOC</p>
+</blockquote>
+<ul>
+<li>容器概念：存放各种对象（xml中配置的bean节点、@repository、@service、@controller、@component）的map。<ul>
+<li>在项目启动时会读取配置文件的里面的bean，根据全限定类名使用反射创建对象放到map里；</li>
+<li>扫描到打上注解的类还是通过反射创建对象放到map里</li>
+<li>在代码中需要使用map中的对象时，通过DI注入（@Aurowired、@Resource等注解，xml里bean节点内的ref属性）</li>
+<li>项目启动时会读取xml节点ref属性根据id注入，也会扫描这些注解，根据类型或id注入（id就是对象名）</li>
+</ul>
+</li>
+<li>控制反转<ul>
+<li>没有引入IOC之前，对象A依赖对象B需要主动创建初始化对象B；引入IOC容器后，使对象AB都依赖于IOC容器，IOC容器在对象A需要依赖对象B时主动创建注入到对象A中。</li>
+<li>全部对象的控制权都交给IOC容器，成为了整个系统的核心，like a粘合剂，将系统中所有的对象粘合在一起发挥作用。</li>
+</ul>
+</li>
+<li>依赖注入：实现IOC容器的方法——IOC容器在运行期间，动态的将某种依赖关系注入到对象中</li>
+</ul>
+<blockquote>
+<p>  BeanFactory和ApplicationContext</p>
+</blockquote>
+<ul>
+<li>BeanFactory：<ul>
+<li>延迟加载来注入Bean，使用某个Bean的时候才会加载实例化，这样就不能发现一些存在的Spring配置问题，直到第一次调用才会抛出异常</li>
+<li>通常以编程的方式被创建</li>
+<li>支持BeanPostProcessor、BeanFactoryPostProcessor，需要手动注册</li>
+</ul>
+</li>
+<li>ApplicationContext：<ul>
+<li>在容器启动时一次性创建所有的Bean，可以发现Spring存在的配置错误，有利于检查所依赖属性是否注入。</li>
+<li>在启动后预加载所有的单实例Bean，需要的时候不用等待直接用。</li>
+<li>不足：占用内存空间，当应用程序配置bean较多时程序启动较慢</li>
+<li>除了以编程的方式被创建，还可以以声明的方式创建，如使用ContextLoader</li>
+<li>支持BeanPostProcessor、BeanFactoryPostProcessor，自动注册</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Spring Bean的生命周期</p>
+</blockquote>
+<ol>
+<li>解析类得到BeanDefinition</li>
+<li>如果有多个构造方法，则要推断构造方法</li>
+<li>确定好构造方法后，进行实例化得到一个对象</li>
+<li>对对象中加了@Autowired注解的属性进行属性填充</li>
+<li>回调Aware方法，比如BeanNameAware、BeanFactoryAware</li>
+<li>调用BeanPostProcessor初始化前的方法</li>
+<li>调用初始化方法</li>
+<li>调用BeanPostProcessor初始化后的方法，这里进行AOP动态代理</li>
+<li>如果创建的bean是单例的则会放入单例池</li>
+<li>使用bean</li>
+<li>Spring容器关闭时调用DisposableBean中destory()方法销毁</li>
+</ol>
+<blockquote>
+<p>Spring框架中用到了那些设计模式</p>
+</blockquote>
+<ul>
+<li>简单工厂（不是23种之一）：由一个工厂类根据传入的参数，动态决定创建那个产品类<ul>
+<li>Spring中的BeanFactory就是简单工厂模式的体现，根据传入一个唯一的标识，getBean()获得Bean对象，根据情况来定实在传入参数后创建还是前创建</li>
+</ul>
+</li>
+<li>工厂方法：</li>
+<li>单例模式：保证一个类仅有一个实例，并提供一个访问它的全局访问点</li>
+<li>适配器模式：</li>
+<li>装饰器模式：动态的给一个对象添加一些额外的职责<ul>
+<li>Spring用到的包装器模式在在类名上有两种体现，分别是类名中含有Wrappper &#x2F; Decorator（Decorator模式相比生成子类更为灵活）</li>
+</ul>
+</li>
+<li>动态代理：</li>
+<li>观察者模式：</li>
+<li>策略模式：</li>
+</ul>
+<blockquote>
+<p>Spring事务的实现方式 &#x2F; 原理 &#x2F; 隔离级别</p>
+</blockquote>
+<ul>
+<li>使用spring框架时有两种使用事务的方式 —— spring是基于数据库中的事务进行了扩展，以及提供了一些让程序员更加方便操作事务的方式<ul>
+<li>编程式 ： 调用api、rollback方法</li>
+<li>申明式 ： 在方法上加@Transactional注解，就可以开启事务，这个方法中所有的sql都在一个事务中执行，统一成功或失败<ul>
+<li>方法上加@Transactional注解后，spring会基于这个类生成一个代理对象，将其作为bean，当使用这个代理对象的方法时，如果方法上有@Transactional注解，代理逻辑会将事务的自动提交设置为false，再去执行原本的业务逻辑方法，如果没有出现异常则提交事务，出现了异常便将事务回滚</li>
+<li>可以自定义异常回滚，使用@Transactional中的rollbackFor属性，配置对哪些抛出的异常进行回滚（catch后不能算抛出异常），默认对RuntimeException和Error进行回滚</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>spring事务的隔离级别 &#x3D; 数据库的隔离级别：外加一个默认级别<ul>
+<li>read uncommitted（未提交读）</li>
+<li>read committed（提交读，不可重复读）（Oracle数据库的默认级别）</li>
+<li>repeatable read（可重复读）（Mysql的默认级别）</li>
+<li>serializable（可串行化）</li>
+<li>隔离级别以spring配置的为准，如果spring设置的隔离级别数据库不支持，效果取决于数据库</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>spring事务传播机制</p>
+</blockquote>
+<p>多个事务方法相互调用时，事务如何在这些方法间传播</p>
+<ul>
+<li>REQUIRED(默认)：被调用方出现异常时，无论调用方是否catch都会回滚</li>
+<li>SUPPORTS</li>
+<li>MANDATORY</li>
+<li>REQUIRES_NEW：原有事务回滚，不会影响新事务</li>
+<li>NOT_SUPPORTED</li>
+<li>NEVER</li>
+<li>NESTED：父事务回滚子事务也会回滚，子事务回滚父事务不一定回滚（可能catch了异常）</li>
+</ul>
+<blockquote>
+<p>Spring事务失效 —— 原理是AOP进行了切面增强，事务失效原因是AOP失效</p>
+</blockquote>
+<ul>
+<li>发生自调用，类里面使用this.调用本身的方法时，不是由代理bean调用，而是类本身调用<ul>
+<li>解决方法：使用注入的对象调用本类方法</li>
+</ul>
+</li>
+<li>方法只能是public的，如果非要用在非public的方法上，只能改变代理方式</li>
+<li>数据库不支持事务</li>
+<li>没有被spring管理（没有加入IOC容器、没有加@Service等注解）</li>
+<li>异常被吃掉，事务不会回滚  &#x2F;  抛出的异常没有定义，默认为RuntimeException</li>
+</ul>
+<blockquote>
+<p>bean的自动装配</p>
+</blockquote>
+<ul>
+<li>autowire &#x3D; “ “<ul>
+<li>byName 属性名</li>
+<li>byType 属性类</li>
+<li>constructor 构造器的参数类</li>
+<li>autodetect 有默认构造器则按constructor 无则byType</li>
+</ul>
+</li>
+<li>AutoWired自动装配</li>
+</ul>
+<blockquote>
+<p>SpringBoot、SpringMVC、Spring</p>
+</blockquote>
+<ul>
+<li>spring：IOC容器，管理Bean，使用依赖注入实现控制反转，降低耦合，很方便的整合各种框架，提供AOP机制避免OOP代码重复的问题，更方便将不同类不同方法中的共同处理抽取成切面、自动注入给方法执行，比如日志、异常等</li>
+<li>springMVC：spring对web框架的解决方案。提供了一个总的前端控制器用来接收请求，然后定义了一套路由策略（url到handler的映射）及适配执行handler，再将handler结果使用视图解析器解析成视图展现给前端<ul>
+<li>工作流程：<ol>
+<li>用户发送请求至前端控制器DispatcherServlet</li>
+<li>DispatcherServlet收到请求调用HandlerMapping处理器映射器</li>
+<li>处理器映射器找到具体的处理器（可根据xml配置、注解进行查找），生成处理器以及处理器拦截器一并返回给DispatcherServlet</li>
+<li>DispatcherServlet调用HandlerAdapter处理器适配器</li>
+<li>HandlerAdapter经过适配调用具体的处理器（Controller）</li>
+<li>Controller执行完成返回ModelAndView</li>
+<li>HandlerAdapter将controller执行结果ModelAndView返回给DispatcherServlet</li>
+<li>DispatcherServlet将ModelAndView传给ViewResolver视图解析器</li>
+<li>ViewResolver解析后返回具体View</li>
+<li>DispatcherServlet根据view进行渲染视图（即将模型数据填充至视图中）</li>
+<li>DispatcherServlet响应用户</li>
+</ol>
+</li>
+<li>主要组件：（Handler相当于请求的方法）<ul>
+<li>HandlerMapping —— 根据url查找handler</li>
+<li>HandlerAdapter ——请求与handler方法适配</li>
+<li>HandlerExceptionResolver</li>
+<li>ViewResolver —— 使用jstl解析成view</li>
+<li>RequestToViewNameTranslator</li>
+<li>LocaleResolver</li>
+<li>ThemeResolver</li>
+<li>MultipartResolver</li>
+<li>FlashMapManager</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>SpringBoot：spring提供的一个快速开发工具包，更快速的开发spring+springMVC应用，简化了配置，整合了一系列的解决方案（starter机制）、redis、mongodb、es，可以开箱即用<ul>
+<li>自动配置原理：@Import + @Configuration（+@Bean） + Spring spi（读META-INF&#x2F;spring.factories）<ul>
+<li>自动配置类（如：Mybatis）由各个starter提供，使用@Configuration+@Bean定义配置类，放到META-INF&#x2F;spring.factories下</li>
+<li>使用 Spring spi扫描META-INF&#x2F;spring.factories下的配置类</li>
+<li>使用@Import导入自动配置类</li>
+</ul>
+</li>
+<li>starter：（spring+springMVC开发时，要引用mybatis等框架需要到xml中定义需要的bean）（springboot的starter机制避免了这种需要由程序员手动配置的繁复工作）<ul>
+<li>定义一个starter的jar包</li>
+<li>写一个@Configuration配置类，将需要的bean定义在里面</li>
+<li>在starter包的META-INF&#x2F;spring.factories中写入该配置类</li>
+<li>springboot会按照约定加载该配置类</li>
+<li>开发人员只需将starter包依赖进应用，进行相应的属性配置（使用默认配置时不需要配置），就可以直接进行代码开发</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 </article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">LLoyyj</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://lloyyj.github.io/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/">http://lloyyj.github.io/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/java/">java</a><a class="post-meta__tags" href="/tags/%E5%85%AB%E8%82%A1/">八股</a><a class="post-meta__tags" href="/tags/%E9%9D%A2%E8%AF%95/">面试</a></div><div class="post_share"><div class="social-share" data-image="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/01/14/Java%E5%9F%BA%E7%A1%80/"><img class="prev-cover" src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">Java基础</div></div></a></div><div class="next-post pull-right"><a href="/2023/01/13/MySQL%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89/"><img class="next-cover" src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">MySQL学习日记（三）</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2023/01/14/Java基础——集合/" title="Java基础——集合"><img class="cover" src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-14</div><div class="title">Java基础——集合</div></div></a></div><div><a href="/2023/01/18/算法题解题思路/" title="算法题解题思路"><img class="cover" src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-18</div><div class="title">算法题解题思路</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://s2.loli.net/2023/01/11/1NsbGvmfukWXBQM.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">LLoyyj</div><div class="author-info__description">属于我人生的一小步</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">8</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/LLoyyJ"><i class="fab fa-github"></i><span>关注我一下下？</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">你自己偷偷知道就好啦 ~</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/01/18/%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/" title="算法题解题思路"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="算法题解题思路"/></a><div class="content"><a class="title" href="/2023/01/18/%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/" title="算法题解题思路">算法题解题思路</a><time datetime="2023-01-18T08:43:39.000Z" title="Created 2023-01-18 16:43:39">2023-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/14/Java%E5%9F%BA%E7%A1%80%E2%80%94%E2%80%94%E9%9B%86%E5%90%88/" title="Java基础——集合"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java基础——集合"/></a><div class="content"><a class="title" href="/2023/01/14/Java%E5%9F%BA%E7%A1%80%E2%80%94%E2%80%94%E9%9B%86%E5%90%88/" title="Java基础——集合">Java基础——集合</a><time datetime="2023-01-14T12:25:14.000Z" title="Created 2023-01-14 20:25:14">2023-01-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/14/Java%E5%9F%BA%E7%A1%80/" title="Java基础"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java基础"/></a><div class="content"><a class="title" href="/2023/01/14/Java%E5%9F%BA%E7%A1%80/" title="Java基础">Java基础</a><time datetime="2023-01-14T11:31:14.000Z" title="Created 2023-01-14 19:31:14">2023-01-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/" title="面试八股"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="面试八股"/></a><div class="content"><a class="title" href="/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/" title="面试八股">面试八股</a><time datetime="2023-01-14T07:27:59.000Z" title="Created 2023-01-14 15:27:59">2023-01-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/13/MySQL%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89/" title="MySQL学习日记（三）"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MySQL学习日记（三）"/></a><div class="content"><a class="title" href="/2023/01/13/MySQL%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89/" title="MySQL学习日记（三）">MySQL学习日记（三）</a><time datetime="2023-01-13T03:27:49.000Z" title="Created 2023-01-13 11:27:49">2023-01-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023  <i id="heartbeat" class="fa fas fa-heartbeat"></i> LLoyyj</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">开心就好<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p></div></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="7427714271" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-lrctype="1" data-preload="none" data-autoplay="true" muted></div><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script data-pjax defer src="https://npm.elemecdn.com/tzy-blog/lib/js/theme/chocolate.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = true;
 POWERMODE.mobile = false;
