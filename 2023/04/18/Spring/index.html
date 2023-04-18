@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spring | LLoyyj's blog</title><meta name="keywords" content="Spring"><meta name="author" content="LLoyyj"><meta name="copyright" content="LLoyyj"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="属于我人生的一小步">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spring | LLoyyj's blog</title><meta name="keywords" content="Spring"><meta name="author" content="LLoyyj"><meta name="copyright" content="LLoyyj"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="SSMSpringSpring是什么 是一个轻量级的控制反转（IOC）和面向切面(AOP)的容器框架  容器框架 —— 装javabean（java对象）—— 包含并管理应用对象（Bean）的配置和生命周期  中间层框架 —— 起连接作用  ——将简单的组件、配置组合成为复杂的应用  从大小开销两方面都是轻量级  通过控制反转（IOC）的技术达到松耦合的目的  提供了面向切面的丰富支持，允许通过分">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Spring">
 <meta property="og:url" content="http://lloyyj.github.io/2023/04/18/Spring/index.html">
 <meta property="og:site_name" content="LLoyyj&#39;s blog">
-<meta property="og:description" content="属于我人生的一小步">
+<meta property="og:description" content="SSMSpringSpring是什么 是一个轻量级的控制反转（IOC）和面向切面(AOP)的容器框架  容器框架 —— 装javabean（java对象）—— 包含并管理应用对象（Bean）的配置和生命周期  中间层框架 —— 起连接作用  ——将简单的组件、配置组合成为复杂的应用  从大小开销两方面都是轻量级  通过控制反转（IOC）的技术达到松耦合的目的  提供了面向切面的丰富支持，允许通过分">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg">
 <meta property="article:published_time" content="2023-04-18T03:27:49.000Z">
-<meta property="article:modified_time" content="2023-04-18T13:12:17.016Z">
+<meta property="article:modified_time" content="2023-04-18T13:19:11.320Z">
 <meta property="article:author" content="LLoyyj">
 <meta property="article:tag" content="Spring">
 <meta name="twitter:card" content="summary">
@@ -56,8 +56,8 @@
   isPost: true,
   isHome: false,
   isHighlightShrink: true,
-  isToc: false,
-  postUpdate: '2023-04-18 21:12:17'
+  isToc: true,
+  postUpdate: '2023-04-18 21:19:11'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -139,7 +139,263 @@
           document.documentElement.classList.remove('hide-aside')
         }
       }
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://s2.loli.net/2023/01/11/1NsbGvmfukWXBQM.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2023/01/13/HgqerZ84sb67c2G.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">LLoyyj's blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Spring</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-04-18T03:27:49.000Z" title="Created 2023-04-18 11:27:49">2023-04-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-04-18T13:12:17.016Z" title="Updated 2023-04-18 21:12:17">2023-04-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java%E5%90%8E%E7%AB%AF/">Java后端</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">0</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>1min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Spring"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">LLoyyj</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://lloyyj.github.io/2023/04/18/Spring/">http://lloyyj.github.io/2023/04/18/Spring/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Spring/">Spring</a></div><div class="post_share"><div class="social-share" data-image="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/04/01/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><img class="next-cover" src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Redis学习笔记</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://s2.loli.net/2023/01/11/1NsbGvmfukWXBQM.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">LLoyyj</div><div class="author-info__description">属于我人生的一小步</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/LLoyyJ"><i class="fab fa-github"></i><span>关注我一下下？</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">你自己偷偷知道就好啦 ~</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/04/18/Spring/" title="Spring"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring"/></a><div class="content"><a class="title" href="/2023/04/18/Spring/" title="Spring">Spring</a><time datetime="2023-04-18T03:27:49.000Z" title="Created 2023-04-18 11:27:49">2023-04-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/04/01/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="Redis学习笔记"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis学习笔记"/></a><div class="content"><a class="title" href="/2023/04/01/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="Redis学习笔记">Redis学习笔记</a><time datetime="2023-04-01T03:27:41.000Z" title="Created 2023-04-01 11:27:41">2023-04-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/18/%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/" title="算法题解题思路"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="算法题解题思路"/></a><div class="content"><a class="title" href="/2023/01/18/%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/" title="算法题解题思路">算法题解题思路</a><time datetime="2023-01-18T08:43:39.000Z" title="Created 2023-01-18 16:43:39">2023-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/" title="面试八股"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="面试八股"/></a><div class="content"><a class="title" href="/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/" title="面试八股">面试八股</a><time datetime="2023-01-14T07:27:59.000Z" title="Created 2023-01-14 15:27:59">2023-01-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/13/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/" title="MySQL学习笔记（一）"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MySQL学习笔记（一）"/></a><div class="content"><a class="title" href="/2023/01/13/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/" title="MySQL学习笔记（一）">MySQL学习笔记（一）</a><time datetime="2023-01-13T03:27:23.000Z" title="Created 2023-01-13 11:27:23">2023-01-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023  <i id="heartbeat" class="fa fas fa-heartbeat"></i> LLoyyj</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">开心就好<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p></div></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="7427714271" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-lrctype="1" data-preload="none" data-autoplay="true" muted></div><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script data-pjax defer src="https://npm.elemecdn.com/tzy-blog/lib/js/theme/chocolate.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://s2.loli.net/2023/01/11/1NsbGvmfukWXBQM.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2023/01/13/HgqerZ84sb67c2G.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">LLoyyj's blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Spring</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-04-18T03:27:49.000Z" title="Created 2023-04-18 11:27:49">2023-04-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-04-18T13:19:11.320Z" title="Updated 2023-04-18 21:19:11">2023-04-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java%E5%90%8E%E7%AB%AF/">Java后端</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">3.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>9min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Spring"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="SSM"><a href="#SSM" class="headerlink" title="SSM"></a>SSM</h1><h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h3 id="Spring是什么"><a href="#Spring是什么" class="headerlink" title="Spring是什么"></a>Spring是什么</h3><ul>
+<li><p>是一个轻量级的控制反转（IOC）和面向切面(AOP)的容器框架</p>
+</li>
+<li><p>容器框架 —— 装javabean（java对象）—— 包含并管理应用对象（Bean）的配置和生命周期</p>
+</li>
+<li><p>中间层框架 —— 起连接作用  ——将简单的组件、配置组合成为复杂的应用</p>
+</li>
+<li><p>从大小开销两方面都是轻量级</p>
+</li>
+<li><p>通过控制反转（IOC）的技术达到松耦合的目的</p>
+</li>
+<li><p>提供了面向切面的丰富支持，允许通过分离应用的业务逻辑与系统级服务进行内聚性的开发</p>
+</li>
+</ul>
+<h3 id="AOP面向切面、OOP面向对象"><a href="#AOP面向切面、OOP面向对象" class="headerlink" title="AOP面向切面、OOP面向对象"></a>AOP面向切面、OOP面向对象</h3><p>系统的不同功能组件都需要例如日志、事务管理、安全这样的核心公共服务（横切关注点）</p>
+<ul>
+<li>若使用OOP则需要为每个核心业务对象定义公共服务对象，会导致大量代码的重复，不利于模块的复用</li>
+<li>AOP将程序中的交叉业务逻辑封装成一个切面，注入到目标对象中</li>
+</ul>
+<h3 id="IOC"><a href="#IOC" class="headerlink" title="IOC"></a>IOC</h3><ul>
+<li><p>如何实现一个IOC容器</p>
+<ol>
+<li>配置文件中指定需要扫描的包的路径</li>
+<li>定义一些注解，分别表示访问控制层、业务服务层、数据持久层、依赖注入注解、获取配置文件注解</li>
+<li>从配置文件中获取需要扫描的包路径，获取到当前路径下的文件信息以及文件夹信息，将当前路径下所有的字节码文件添加到set集合</li>
+<li>反射、确定需要交给IOC管理的类</li>
+<li>对需要注入的类进行依赖注入</li>
+</ol>
+</li>
+<li><p>容器概念：存放各种对象（xml中配置的bean节点、@repository、@service、@controller、@component）的map。</p>
+<ul>
+<li>在项目启动时会读取配置文件的里面的bean，根据全限定类名使用反射创建对象放到map里；</li>
+<li>扫描到打上注解的类还是通过反射创建对象放到map里</li>
+<li>在代码中需要使用map中的对象时，通过DI注入（@Aurowired、@Resource等注解，xml里bean节点内的ref属性）</li>
+<li>项目启动时会读取xml节点ref属性根据id注入，也会扫描这些注解，根据类型或id注入（id就是对象名）</li>
+</ul>
+</li>
+<li><p>控制反转</p>
+<ul>
+<li>没有引入IOC之前，对象A依赖对象B需要主动创建初始化对象B；引入IOC容器后，使对象AB都依赖于IOC容器，IOC容器在对象A需要依赖对象B时主动创建注入到对象A中。</li>
+<li>全部对象的控制权都交给IOC容器，成为了整个系统的核心，like a粘合剂，将系统中所有的对象粘合在一起发挥作用。</li>
+</ul>
+</li>
+<li><p>依赖注入：实现IOC容器的方法——IOC容器在运行期间，动态的将某种依赖关系注入到对象中</p>
+</li>
+</ul>
+<h3 id="BeanFactory和ApplicationContext"><a href="#BeanFactory和ApplicationContext" class="headerlink" title="BeanFactory和ApplicationContext"></a>BeanFactory和ApplicationContext</h3><ul>
+<li>BeanFactory：<ul>
+<li>延迟加载来注入Bean，使用某个Bean的时候才会加载实例化，这样就不能发现一些存在的Spring配置问题，直到第一次调用才会抛出异常</li>
+<li>通常以编程的方式被创建</li>
+<li>支持BeanPostProcessor、BeanFactoryPostProcessor，需要手动注册</li>
+</ul>
+</li>
+<li>ApplicationContext：<ul>
+<li>在容器启动时一次性创建所有的Bean，可以发现Spring存在的配置错误，有利于检查所依赖属性是否注入。</li>
+<li>在启动后预加载所有的单实例Bean，需要的时候不用等待直接用。</li>
+<li>不足：占用内存空间，当应用程序配置bean较多时程序启动较慢</li>
+<li>除了以编程的方式被创建，还可以以声明的方式创建，如使用ContextLoader</li>
+<li>支持BeanPostProcessor、BeanFactoryPostProcessor，自动注册</li>
+</ul>
+</li>
+</ul>
+<h3 id="Spring-Bean的生命周期"><a href="#Spring-Bean的生命周期" class="headerlink" title="Spring Bean的生命周期"></a>Spring Bean的生命周期</h3><ol>
+<li>解析类得到BeanDefinition</li>
+<li>如果有多个构造方法，则要推断构造方法</li>
+<li>确定好构造方法后，进行实例化得到一个对象</li>
+<li>对对象中加了@Autowired注解的属性进行属性填充</li>
+<li>回调Aware方法，比如BeanNameAware、BeanFactoryAware</li>
+<li>调用BeanPostProcessor初始化前的方法</li>
+<li>调用初始化方法</li>
+<li>调用BeanPostProcessor初始化后的方法，这里进行AOP动态代理</li>
+<li>如果创建的bean是单例的则会放入单例池</li>
+<li>使用bean</li>
+<li>Spring容器关闭时调用DisposableBean中destory()方法销毁</li>
+</ol>
+<h3 id="Spring框架中用到了那些设计模式"><a href="#Spring框架中用到了那些设计模式" class="headerlink" title="Spring框架中用到了那些设计模式"></a>Spring框架中用到了那些设计模式</h3><ul>
+<li>简单工厂（不是23种之一）：由一个工厂类根据传入的参数，动态决定创建那个产品类<ul>
+<li>Spring中的BeanFactory就是简单工厂模式的体现，根据传入一个唯一的标识，getBean()获得Bean对象，根据情况来定实在传入参数后创建还是前创建</li>
+</ul>
+</li>
+<li>工厂方法：</li>
+<li>单例模式：保证一个类仅有一个实例，并提供一个访问它的全局访问点</li>
+<li>适配器模式：</li>
+<li>装饰器模式：动态的给一个对象添加一些额外的职责<ul>
+<li>Spring用到的包装器模式在在类名上有两种体现，分别是类名中含有Wrappper &#x2F; Decorator（Decorator模式相比生成子类更为灵活）</li>
+</ul>
+</li>
+<li>动态代理：</li>
+<li>观察者模式：</li>
+<li>策略模式：</li>
+</ul>
+<h3 id="Spring事务的实现方式-x2F-原理-x2F-隔离级别"><a href="#Spring事务的实现方式-x2F-原理-x2F-隔离级别" class="headerlink" title="Spring事务的实现方式 &#x2F; 原理 &#x2F; 隔离级别"></a>Spring事务的实现方式 &#x2F; 原理 &#x2F; 隔离级别</h3><ul>
+<li>使用spring框架时有两种使用事务的方式 —— spring是基于数据库中的事务进行了扩展，以及提供了一些让程序员更加方便操作事务的方式<ul>
+<li>编程式 ： 调用api、rollback方法</li>
+<li>申明式 ： 在方法上加@Transactional注解，就可以开启事务，这个方法中所有的sql都在一个事务中执行，统一成功或失败<ul>
+<li>方法上加@Transactional注解后，spring会基于这个类生成一个代理对象，将其作为bean，当使用这个代理对象的方法时，如果方法上有@Transactional注解，代理逻辑会将事务的自动提交设置为false，再去执行原本的业务逻辑方法，如果没有出现异常则提交事务，出现了异常便将事务回滚</li>
+<li>可以自定义异常回滚，使用@Transactional中的rollbackFor属性，配置对哪些抛出的异常进行回滚（catch后不能算抛出异常），默认对RuntimeException和Error进行回滚</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>spring事务的隔离级别 &#x3D; 数据库的隔离级别：外加一个默认级别<ul>
+<li>read uncommitted（未提交读）</li>
+<li>read committed（提交读，不可重复读）（Oracle数据库的默认级别）</li>
+<li>repeatable read（可重复读）（Mysql的默认级别）</li>
+<li>serializable（可串行化）</li>
+<li>隔离级别以spring配置的为准，如果spring设置的隔离级别数据库不支持，效果取决于数据库</li>
+</ul>
+</li>
+</ul>
+<h3 id="spring事务传播机制"><a href="#spring事务传播机制" class="headerlink" title="spring事务传播机制"></a>spring事务传播机制</h3><p>多个事务方法相互调用时，事务如何在这些方法间传播</p>
+<ul>
+<li>REQUIRED(默认)：被调用方出现异常时，无论调用方是否catch都会回滚</li>
+<li>SUPPORTS</li>
+<li>MANDATORY</li>
+<li>REQUIRES_NEW：原有事务回滚，不会影响新事务</li>
+<li>NOT_SUPPORTED</li>
+<li>NEVER</li>
+<li>NESTED：父事务回滚子事务也会回滚，子事务回滚父事务不一定回滚（可能catch了异常）</li>
+</ul>
+<h3 id="Spring事务失效-——-原理是AOP进行了切面增强，事务失效原因是AOP失效"><a href="#Spring事务失效-——-原理是AOP进行了切面增强，事务失效原因是AOP失效" class="headerlink" title="Spring事务失效 —— 原理是AOP进行了切面增强，事务失效原因是AOP失效"></a>Spring事务失效 —— 原理是AOP进行了切面增强，事务失效原因是AOP失效</h3><ul>
+<li>发生自调用，类里面使用this.调用本身的方法时，不是由代理bean调用，而是类本身调用<ul>
+<li>解决方法：使用注入的对象调用本类方法</li>
+</ul>
+</li>
+<li>方法只能是public的，如果非要用在非public的方法上，只能改变代理方式</li>
+<li>数据库不支持事务</li>
+<li>没有被spring管理（没有加入IOC容器、没有加@Service等注解）</li>
+<li>异常被吃掉，事务不会回滚  &#x2F;  抛出的异常没有定义，默认为RuntimeException</li>
+</ul>
+<h3 id="bean的自动装配"><a href="#bean的自动装配" class="headerlink" title="bean的自动装配"></a>bean的自动装配</h3><ul>
+<li>autowire &#x3D; “ “<ul>
+<li>byName 属性名</li>
+<li>byType 属性类</li>
+<li>constructor 构造器的参数类</li>
+<li>autodetect 有默认构造器则按constructor 无则byType</li>
+</ul>
+</li>
+<li>AutoWired自动装配</li>
+</ul>
+<h2 id="SpringBoot"><a href="#SpringBoot" class="headerlink" title="SpringBoot"></a>SpringBoot</h2><h3 id="SpringBoot、SpringMVC、Spring"><a href="#SpringBoot、SpringMVC、Spring" class="headerlink" title="SpringBoot、SpringMVC、Spring"></a>SpringBoot、SpringMVC、Spring</h3><ul>
+<li>spring：IOC容器，管理Bean，使用依赖注入实现控制反转，降低耦合，很方便的整合各种框架，提供AOP机制避免OOP代码重复的问题，更方便将不同类不同方法中的共同处理抽取成切面、自动注入给方法执行，比如日志、异常等</li>
+<li>springMVC：spring对web框架的解决方案。提供了一个总的前端控制器用来接收请求，然后定义了一套路由策略（url到handler的映射）及适配执行handler，再将handler结果使用视图解析器解析成视图展现给前端<ul>
+<li>工作流程：<ol>
+<li>用户发送请求至前端控制器DispatcherServlet</li>
+<li>DispatcherServlet收到请求调用HandlerMapping处理器映射器</li>
+<li>处理器映射器找到具体的处理器（可根据xml配置、注解进行查找），生成处理器以及处理器拦截器一并返回给DispatcherServlet</li>
+<li>DispatcherServlet调用HandlerAdapter处理器适配器</li>
+<li>HandlerAdapter经过适配调用具体的处理器（Controller）</li>
+<li>Controller执行完成返回ModelAndView</li>
+<li>HandlerAdapter将controller执行结果ModelAndView返回给DispatcherServlet</li>
+<li>DispatcherServlet将ModelAndView传给ViewResolver视图解析器</li>
+<li>ViewResolver解析后返回具体View</li>
+<li>DispatcherServlet根据view进行渲染视图（即将模型数据填充至视图中）</li>
+<li>DispatcherServlet响应用户</li>
+</ol>
+</li>
+<li>主要组件：（Handler相当于请求的方法）<ul>
+<li>HandlerMapping —— 根据url查找handler</li>
+<li>HandlerAdapter ——请求与handler方法适配</li>
+<li>HandlerExceptionResolver</li>
+<li>ViewResolver —— 使用jstl解析成view</li>
+<li>RequestToViewNameTranslator</li>
+<li>LocaleResolver</li>
+<li>ThemeResolver</li>
+<li>MultipartResolver</li>
+<li>FlashMapManager</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>SpringBoot：spring提供的一个快速开发工具包，更快速的开发spring+springMVC应用，简化了配置，整合了一系列的解决方案（starter机制）、redis、mongodb、es，可以开箱即用<ul>
+<li>自动配置原理：@Import + @Configuration（+@Bean） + Spring spi（读META-INF&#x2F;spring.factories）<ul>
+<li>自动配置类（如：Mybatis）由各个starter提供，使用@Configuration+@Bean定义配置类，放到META-INF&#x2F;spring.factories下</li>
+<li>使用 Spring spi扫描META-INF&#x2F;spring.factories下的配置类</li>
+<li>使用@Import导入自动配置类</li>
+</ul>
+</li>
+<li>starter：（spring+springMVC开发时，要引用mybatis等框架需要到xml中定义需要的bean）（springboot的starter机制避免了这种需要由程序员手动配置的繁复工作）<ul>
+<li>定义一个starter的jar包</li>
+<li>写一个@Configuration配置类，将需要的bean定义在里面</li>
+<li>在starter包的META-INF&#x2F;spring.factories中写入该配置类</li>
+<li>springboot会按照约定加载该配置类</li>
+<li>开发人员只需将starter包依赖进应用，进行相应的属性配置（使用默认配置时不需要配置），就可以直接进行代码开发</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Mybatis"><a href="#Mybatis" class="headerlink" title="Mybatis"></a>Mybatis</h2><h3 id="Mybatis-和-Hibernate"><a href="#Mybatis-和-Hibernate" class="headerlink" title="Mybatis 和 Hibernate"></a>Mybatis 和 Hibernate</h3><ul>
+<li><p>操作数据库层的框架</p>
+</li>
+<li><p>ORM对象关系映射——java对象与db映射（mybatis没有维护这个映射关系）</p>
+</li>
+<li><p>开发速度：</p>
+<ul>
+<li><p>学习成本：hibernate &gt; mybatis</p>
+</li>
+<li><p>项目结构：</p>
+<ul>
+<li>简单的增删改查：Hibernate——使用封装好的sql语句</li>
+<li>大型项目：mybatis快，开发量大，但语句管理比较方便</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>开发工作量：</p>
+<ul>
+<li>有相应代码生成工具，生成基本的DAO方法</li>
+<li>高级查询时hibernate无需关心sql的生成与结果映射，可以更专注于业务流程</li>
+</ul>
+</li>
+<li><p>sql优化：</p>
+<ul>
+<li>mybatis可以手动调整</li>
+</ul>
+</li>
+<li><p>对象管理：</p>
+<ul>
+<li>hibernate：对象状态管理</li>
+</ul>
+</li>
+<li><p>缓存机制：</p>
+<ul>
+<li>都可以实现自己的缓存或使用第三方缓存，创建适配器完全覆盖缓存</li>
+<li>mybatis使用二级缓存需要小心</li>
+</ul>
+</li>
+<li><p>hibernate数据库无关性好，mybatis工作量较大</p>
+</li>
+</ul>
+<h3 id="和"><a href="#和" class="headerlink" title="#{} 和${}"></a>#{} 和${}</h3><ul>
+<li>#{}<ul>
+<li>预编译，是占位符</li>
+<li>mybatis处理时会替换成？号，调用preparedstatement赋值</li>
+<li>变量替换在DBMS中、变量替换后，对应变量自动加上单引号</li>
+<li>可以有效防止SQL注入，提高系统安全性</li>
+</ul>
+</li>
+<li>${}<ul>
+<li>字符串替换，是拼接符</li>
+<li>mybatis处理时会替换成变量的值，调用statement赋值</li>
+<li>变量替换在DBMS外、变量替换后，对应变量不会加上单引号</li>
+</ul>
+</li>
+</ul>
+<h3 id="Mybatis插件运行原理，如何编写一个插件"><a href="#Mybatis插件运行原理，如何编写一个插件" class="headerlink" title="Mybatis插件运行原理，如何编写一个插件"></a>Mybatis插件运行原理，如何编写一个插件</h3><ul>
+<li>只支持拦截ParameterHandler（参数数据类型转换工具）、ResultSetHandler（接收JDBC中的结果集）、StatementHandler（JDBC中的statement的封装，映射结果集）、Executor（生成sql语句，缓存的维护）四种接口的插件，使用JDK的动态代理，为需要拦截的接口生成代理对象以实现拦截功能</li>
+<li>编写插件<ul>
+<li>实现mybatis的interceptor接口并复写intercept()方法，</li>
+<li>再给插件编写注解@Intercepts（指定拦截的方法以及方法的参数列表）、@component（Mybatis和spring整合时，需要将拦截器放入ioc容器中，拦截器才生效）&#x2F; 在配置文件中配置编写的插件</li>
+<li>编写代码</li>
+<li>调用invocation.proceed()执行原方法的业务逻辑</li>
+</ul>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">LLoyyj</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://lloyyj.github.io/2023/04/18/Spring/">http://lloyyj.github.io/2023/04/18/Spring/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Spring/">Spring</a></div><div class="post_share"><div class="social-share" data-image="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/04/01/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><img class="next-cover" src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Redis学习笔记</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://s2.loli.net/2023/01/11/1NsbGvmfukWXBQM.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">LLoyyj</div><div class="author-info__description">属于我人生的一小步</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/LLoyyJ"><i class="fab fa-github"></i><span>关注我一下下？</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">你自己偷偷知道就好啦 ~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#SSM"><span class="toc-number">1.</span> <span class="toc-text">SSM</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring"><span class="toc-number">1.1.</span> <span class="toc-text">Spring</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.1.</span> <span class="toc-text">Spring是什么</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#AOP%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2%E3%80%81OOP%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.1.2.</span> <span class="toc-text">AOP面向切面、OOP面向对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IOC"><span class="toc-number">1.1.3.</span> <span class="toc-text">IOC</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#BeanFactory%E5%92%8CApplicationContext"><span class="toc-number">1.1.4.</span> <span class="toc-text">BeanFactory和ApplicationContext</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring-Bean%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">1.1.5.</span> <span class="toc-text">Spring Bean的生命周期</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring%E6%A1%86%E6%9E%B6%E4%B8%AD%E7%94%A8%E5%88%B0%E4%BA%86%E9%82%A3%E4%BA%9B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.1.6.</span> <span class="toc-text">Spring框架中用到了那些设计模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring%E4%BA%8B%E5%8A%A1%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F-x2F-%E5%8E%9F%E7%90%86-x2F-%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB"><span class="toc-number">1.1.7.</span> <span class="toc-text">Spring事务的实现方式 &#x2F; 原理 &#x2F; 隔离级别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#spring%E4%BA%8B%E5%8A%A1%E4%BC%A0%E6%92%AD%E6%9C%BA%E5%88%B6"><span class="toc-number">1.1.8.</span> <span class="toc-text">spring事务传播机制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Spring%E4%BA%8B%E5%8A%A1%E5%A4%B1%E6%95%88-%E2%80%94%E2%80%94-%E5%8E%9F%E7%90%86%E6%98%AFAOP%E8%BF%9B%E8%A1%8C%E4%BA%86%E5%88%87%E9%9D%A2%E5%A2%9E%E5%BC%BA%EF%BC%8C%E4%BA%8B%E5%8A%A1%E5%A4%B1%E6%95%88%E5%8E%9F%E5%9B%A0%E6%98%AFAOP%E5%A4%B1%E6%95%88"><span class="toc-number">1.1.9.</span> <span class="toc-text">Spring事务失效 —— 原理是AOP进行了切面增强，事务失效原因是AOP失效</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bean%E7%9A%84%E8%87%AA%E5%8A%A8%E8%A3%85%E9%85%8D"><span class="toc-number">1.1.10.</span> <span class="toc-text">bean的自动装配</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SpringBoot"><span class="toc-number">1.2.</span> <span class="toc-text">SpringBoot</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringBoot%E3%80%81SpringMVC%E3%80%81Spring"><span class="toc-number">1.2.1.</span> <span class="toc-text">SpringBoot、SpringMVC、Spring</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mybatis"><span class="toc-number">1.3.</span> <span class="toc-text">Mybatis</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Mybatis-%E5%92%8C-Hibernate"><span class="toc-number">1.3.1.</span> <span class="toc-text">Mybatis 和 Hibernate</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%92%8C"><span class="toc-number">1.3.2.</span> <span class="toc-text">#{} 和${}</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mybatis%E6%8F%92%E4%BB%B6%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86%EF%BC%8C%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E6%8F%92%E4%BB%B6"><span class="toc-number">1.3.3.</span> <span class="toc-text">Mybatis插件运行原理，如何编写一个插件</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/04/18/Spring/" title="Spring"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring"/></a><div class="content"><a class="title" href="/2023/04/18/Spring/" title="Spring">Spring</a><time datetime="2023-04-18T03:27:49.000Z" title="Created 2023-04-18 11:27:49">2023-04-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/04/01/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="Redis学习笔记"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Redis学习笔记"/></a><div class="content"><a class="title" href="/2023/04/01/Redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="Redis学习笔记">Redis学习笔记</a><time datetime="2023-04-01T03:27:41.000Z" title="Created 2023-04-01 11:27:41">2023-04-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/18/%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/" title="算法题解题思路"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="算法题解题思路"/></a><div class="content"><a class="title" href="/2023/01/18/%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF/" title="算法题解题思路">算法题解题思路</a><time datetime="2023-01-18T08:43:39.000Z" title="Created 2023-01-18 16:43:39">2023-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/" title="面试八股"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="面试八股"/></a><div class="content"><a class="title" href="/2023/01/14/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1/" title="面试八股">面试八股</a><time datetime="2023-01-14T07:27:59.000Z" title="Created 2023-01-14 15:27:59">2023-01-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/01/13/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/" title="MySQL学习笔记（一）"><img src="https://s2.loli.net/2023/01/11/IgN6lKQZ2kBHbev.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MySQL学习笔记（一）"/></a><div class="content"><a class="title" href="/2023/01/13/MySQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/" title="MySQL学习笔记（一）">MySQL学习笔记（一）</a><time datetime="2023-01-13T03:27:23.000Z" title="Created 2023-01-13 11:27:23">2023-01-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023  <i id="heartbeat" class="fa fas fa-heartbeat"></i> LLoyyj</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">开心就好<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p></div></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="7427714271" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-lrctype="1" data-preload="none" data-autoplay="true" muted></div><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script data-pjax defer src="https://npm.elemecdn.com/tzy-blog/lib/js/theme/chocolate.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = true;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
